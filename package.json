@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
+    "cg-app": "1.0.0",
     "element-plus": "^2.7.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.26",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.3.2",
+    "vite-plugin-static-copy": "^2.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",

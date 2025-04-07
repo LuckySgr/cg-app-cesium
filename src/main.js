@@ -9,8 +9,8 @@ import 'element-plus/dist/index.css'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import './assets/css/global.css'
 
-import "../public/cesiumStatic/Widgets/widgets.css"
-import "../public/cgApp-SDK-1.0.0.min.js"
+import "cg-app/widgets.css"
+import 'cg-app'
 
 const app = createApp(App)
 
