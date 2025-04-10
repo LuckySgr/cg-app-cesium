@@ -17,7 +17,7 @@ import Quit from "@/views/components/Quit.vue";
 import {onMounted} from "vue";
 
 onMounted(() => {
-    cgapp.cesium.core.mapInit.createMap("cesiumContainer");
+    cgapp.cesium.core.mapInit.createMap("cesiumContainer", {changeAction: true});
 })
 </script>
 
